@@ -74,18 +74,6 @@ For testing, the project uses a separate MySQL database:
 
 - `storyloom_testing`
 
-## Demo Accounts
-
-These accounts are created by the database seeder:
-
-- Writer
-  - Email: `writer@storyloom.test`
-  - Password: `password`
-
-- Reader
-  - Email: `reader@storyloom.test`
-  - Password: `password`
-
 ## Installation
 
 ### 1. Clone the repository
