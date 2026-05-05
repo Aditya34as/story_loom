@@ -57,26 +57,6 @@ This project was created around the following idea:
 - Tailwind CSS
 - Vite
 
-## Project Structure
-
-- [app/Http/Controllers](C:\Users\adity\OneDrive\Documents\New project\blog-platform\app\Http\Controllers)  
-  Application logic for public pages, authentication, dashboard, and admin panel
-
-- [app/Models](C:\Users\adity\OneDrive\Documents\New project\blog-platform\app\Models)  
-  Eloquent models such as `User`, `Post`, and `Comment`
-
-- [database/migrations](C:\Users\adity\OneDrive\Documents\New project\blog-platform\database\migrations)  
-  Database schema for users, posts, comments, jobs, cache, and sessions
-
-- [database/seeders](C:\Users\adity\OneDrive\Documents\New project\blog-platform\database\seeders)  
-  Demo data for admin, writer, reader, posts, and comments
-
-- [resources/views](C:\Users\adity\OneDrive\Documents\New project\blog-platform\resources\views)  
-  Blade templates for frontend, dashboard, and admin UI
-
-- [routes/web.php](C:\Users\adity\OneDrive\Documents\New project\blog-platform\routes\web.php)  
-  Main application routes
-
 ## Database
 
 The project is configured to use MySQL.
@@ -97,10 +77,6 @@ For testing, the project uses a separate MySQL database:
 ## Demo Accounts
 
 These accounts are created by the database seeder:
-
-- Admin
-  - Email: `admin@storyloom.test`
-  - Password: `password`
 
 - Writer
   - Email: `writer@storyloom.test`
@@ -240,18 +216,6 @@ php artisan test
 - If you run `php artisan migrate:fresh --seed`, any posts you created manually will be removed and replaced by seeded demo data
 - The project uses MySQL now and is no longer dependent on SQLite
 
-## GitHub Safety
-
-The project includes:
-
-- [.gitignore](C:\Users\adity\OneDrive\Documents\New project\blog-platform\.gitignore)
-- [.env.example](C:\Users\adity\OneDrive\Documents\New project\blog-platform\.env.example)
-
-This means:
-
-- local `.env` secrets are not pushed
-- `vendor`, `node_modules`, `public/build`, logs, and cache files are not pushed
-- the repository is safe to upload after reviewing your own local changes
 
 ## Future Improvements
 
@@ -261,7 +225,5 @@ This means:
 - Pagination improvements in dashboard views
 - Profile pages for writers
 - Like/bookmark features
-
-## Author
 
 Built as a Laravel blog platform project with role-based publishing, comments, admin moderation, and Tailwind UI.
